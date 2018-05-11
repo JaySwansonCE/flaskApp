@@ -6,7 +6,7 @@ application.debug = True # sets debug to true so if there is an error, it will d
 #flask decorator. If use goes to the "/" URL of your website (homepage) then run lines 7-8
 @application.route('/', methods=['GET'])
 def hello(): #function named hello It will return the text "Hello World"
-    return '<p>Kevin and Clare are lame</p>'
+    return '<p>Good luck on your interview!</p>'
 
 if __name__ == "__main__": #Initialise the Flask Application
     application.run()
